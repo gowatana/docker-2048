@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER alex <alexwhen@gmail.com> 
+LABEL maintainer "Go Watanabe / gowatana@vmtn.jp"
 
 RUN apk --update add nginx
 
